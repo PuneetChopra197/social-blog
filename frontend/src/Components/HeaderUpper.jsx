@@ -41,7 +41,7 @@ const HeaderUpper = () => {
         <div className="right-top">
           <div className="top-img">
             <img
-              src={`http://localhost:5000/${userData.profilePhoto}`}
+              src={`https://social-blog-1.onrender.com/${userData.profilePhoto}`}
               alt=""
               className="img1"
               onClick={() => navigate("/UserProfile")}

@@ -75,7 +75,7 @@ const Post2 = ({ post, currentDate, render, setRender }) => {
       {!comment ? (
         <div className="bottom-img" key={post._id}>
           <img
-            src={`http://localhost:5000/${post.image}`}
+            src={`https://social-blog-1.onrender.com/${post.image}`}
             alt="created blog"
             className="img2"
           />
@@ -94,7 +94,7 @@ const Post2 = ({ post, currentDate, render, setRender }) => {
           <div className="bot-bot">
             <div className="img3">
               <img
-                src={`http://localhost:5000/${post.image}`}
+                src={`https://social-blog-1.onrender.com/${post.image}`}
                 alt="user"
                 className="bot-img1"
               />
@@ -133,7 +133,7 @@ const Post2 = ({ post, currentDate, render, setRender }) => {
       ) : (
         <div className="bottom-img" key={post._id}>
           <img
-            src={`http://localhost:5000/${post.image}`}
+            src={`https://social-blog-1.onrender.com/${post.image}`}
             alt="created blog"
             className="img2"
           />
@@ -151,7 +151,7 @@ const Post2 = ({ post, currentDate, render, setRender }) => {
           <div className="bot-bot">
             <div className="img3">
               <img
-                src={`http://localhost:5000/${post.image}`}
+                src={`https://social-blog-1.onrender.com/${post.image}`}
                 alt="user"
                 className="bot-img1"
               />
