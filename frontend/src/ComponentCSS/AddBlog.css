@@ -1,0 +1,12 @@
+.goback-button{
+  margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #36abf4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width:100px;
+    height:30px;
+    margin-left: 1000px;
+}

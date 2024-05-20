@@ -1,0 +1,39 @@
+.edit-user-profile{
+  width:100%;
+  text-align: center;
+  padding-top:50px;
+}
+.input-fields{
+  width:500px;
+  height:15px;
+  padding:20px;
+  margin:10px;
+  border-radius: 10px;
+}
+.update{
+  padding:5px 10px;
+  background-color: rgb(41, 192, 41);
+  border:none;
+  color:white;
+  border-radius: 5px;
+  width:100px;
+  height:50px;
+  font-size:16px;
+  cursor: pointer;
+  margin-right:10px;
+}
+.cancel{
+  padding:5px 10px;
+  background-color: rgb(32, 36, 32);
+  border:none;
+  color:white;
+  border-radius: 5px;
+  width:100px;
+  height:50px;
+  font-size:16px;
+  cursor: pointer;
+  margin-left:10px;
+}
+.file-input{
+  margin:10px;
+}

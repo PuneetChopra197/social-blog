@@ -1,0 +1,24 @@
+.blog-info{
+  display:flex;
+}
+.blog-image{
+  height:600px;
+  display:flex;
+  margin-left:200px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.image{
+  height:600px;
+  width:600px;
+  display:flex;
+  border-radius:10px;
+}
+.blog-detail{
+  margin-left:50px;
+  /* text-align:center; */
+}
+.comment-heading{
+  font-size:1.4rem;
+  font-weight:bolder;
+}

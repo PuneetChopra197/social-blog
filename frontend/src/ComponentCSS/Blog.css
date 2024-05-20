@@ -1,0 +1,160 @@
+.blog
+{
+    float:left;
+    width:100%;
+    background-color: aliceblue;
+}
+.blog1
+{
+    margin-top:10px;
+    margin-left:25px;
+    font-weight:bolder;
+    font-size:22px;
+    font-family:Arial;
+    width:50%;
+    float:left;
+}
+.blog-div
+{
+    float:left;
+    margin-left:250px;
+    padding-right:50px;
+}
+.blog-button
+{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #36abf4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width:100px;
+    height:30px;
+}
+.logout-div{
+    float: left;
+}
+.logout-button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #36abf4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width:100px;
+    height:30px;
+}
+.bottom
+{
+    /* display: flex; */
+    width:100%;
+    float:left;
+    background-color: aliceblue;
+    /* display: flex; */
+}
+.bottom-img
+{
+    width:25%;
+    float:left;
+    margin:20px;
+    margin-left:30px;
+    padding:15px;
+    border-radius:10px;
+    margin-right:40px;
+    background-color:white;
+    
+    
+}
+.img2
+{
+    width:100%;
+    height:200px;
+    border-radius:10px;
+}
+.img2-txt
+{
+    width:300px;
+    font-family:Arial;
+    font-weight:bolder;
+    font-size:20px;
+}
+.bot-bot
+{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.img3
+{
+    height:60px;
+    float:left;
+    /* width:60px; */
+}
+.bot-img1
+{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.img3-txt1
+{
+    /* width:100px; */
+    font-family:Arial;
+    float:left;
+    line-height:20px;
+}
+.img3-icon1
+{
+    height:20px;
+    float:left;
+    /* width:40px; */
+    /* padding-left:20px; */
+    padding-top:40px;
+    cursor: pointer;
+}
+.img3-icon2
+{
+    height:20px;
+    float:left;
+    /* width:40px; */
+    /* padding-left:20px; */
+    padding-top:40px;
+    cursor: pointer;
+}
+.img3-icon3{
+    height:20px;
+    padding-top:40px;
+    cursor: pointer;
+}
+.img3-icon4{
+    float:right;
+    cursor: pointer;
+}
+.img-icon5{
+    cursor: pointer;
+}
+.comment{
+    float:left;
+    width:100%;
+}
+.comment-input{
+    width:85%;
+    height:30px;
+    border-radius: 4px;
+}
+.comment-button{
+    margin-left:4px;
+    padding:2px;
+    background-color: #36abf4;
+    border:none;
+    cursor: pointer;
+    height:30px;
+    width:30px;
+    border-radius: 4px;
+}
+.del-comment{
+    float:right;
+    margin-right:50px;
+}

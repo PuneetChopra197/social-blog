@@ -1,0 +1,88 @@
+.middle
+{
+    width:100%;
+    height:80px;
+    background-color:whitesmoke;
+}
+.mid-left
+{
+    float:left;
+    font-family:Arial;
+    font-size:20px;
+    padding:20px;
+}
+.mid-create
+{
+    float:left;
+    padding-left:0px;
+    padding-top:10px;
+    font-family:Arial;
+    font-size:15px;
+}
+.drp1
+{
+    width:180px;
+    height:35px;
+    border-radius:20px;
+}
+.mid-publish
+{
+    float:left;
+    padding-left:20px;
+    padding-top:10px;
+    font-family:Arial;
+    font-size:15px;
+}
+.drp2
+{
+    width:180px;
+    height:35px;
+    border-radius:20px;
+}
+.mid-search
+{
+    float:left;
+    padding-left:50px;
+    padding-top:10px;
+    margin-left:380px;
+    font-family:Arial;
+    font-size:15px;
+}
+.txt1
+{
+    width:200px;
+    height:30px;
+    border-radius:20px;
+}
+#filter-hr
+{
+    width:60px;
+    transform:rotate(90deg);
+    margin:0px; 
+    margin-left:30px;
+}
+.suggestions-container {
+    position: absolute;
+    top: 22%;
+    left:74%;
+    width: 13%;
+    max-height: 200px; /* Adjust max-height as needed */
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Individual suggestion */
+  .suggestion-item {
+    cursor: pointer;
+    list-style-type: none;
+  }
+  
+  /* Hover effect on suggestion */
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }

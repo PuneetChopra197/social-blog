@@ -1,0 +1,117 @@
+.footer1
+{
+    width:100%;
+    float:left;
+    background-color:whitesmoke;
+}
+.foot1
+{
+    float:left;
+}
+.foot1-head
+{
+    font-family:Arial;
+    font-size:20px;
+    margin-left:20px;
+    font-weight:bolder;
+    color:red;
+}
+.foot1-body
+{
+    width:400px;
+    margin-left:20px;
+    line-height:40px;
+}
+.foot2
+{
+    float:left;
+    width:200px;
+}
+.foot2-head
+{
+    font-family:Arial;
+    font-size:20px;
+    margin-left:20px;
+    margin-top:20px;
+    font-weight:bold;
+}
+.foot2-body
+{
+    font-family:Arial;
+    margin-left:20px;
+    margin-top:20px;
+}
+.foot3
+{
+    float:left;
+    width:200px;
+}
+.foot3-head
+{
+    font-family:Arial;
+    font-size:20px;
+    margin-left:20px;
+    margin-top:20px;
+    font-weight:bold;
+}
+.foot3-body
+{
+    font-family:Arial;
+    margin-left:20px;
+    margin-top:20px;
+}
+.foot4
+{
+    float:left;
+    width:350px;
+}
+.foot4-head
+{
+    font-family:Arial;
+    font-size:20px;
+    margin-left:100px;
+    margin-top:20px;
+    font-weight:bold;
+}
+.foot4-icon1
+{
+    width:50px;
+    float:left;
+    text-align:center;
+    margin-left:100px;
+}
+.foot4-icon2
+{
+    width:50px;
+    float:left;
+    text-align:center;
+}
+.foot4-icon3
+{
+    width:50px;
+    float:left;
+    text-align:center;
+}
+.footer2
+{
+    width:100%;
+    background-color:whitesmoke;
+    float:left;
+}
+.footer2-left
+{
+    width:45%;
+    font-family:Arial;
+    text-align:left;
+    font-size:14px;
+    margin-left:20px;
+    float:left;
+}
+.footer2-right
+{
+    width:50%;
+    font-family:Arial;
+    text-align:right;
+    font-size:14px;
+    float:left;
+}
