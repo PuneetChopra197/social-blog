@@ -19,7 +19,7 @@ const UserProfile = () => {
   const { posts } = useSelector((state) => state.posts);
   const { userData } = useSelector((state) => state.posts);
 
-  console.log(posts);
+  console.log(userData, "userDatauserData");
   // const [userData, setUserData] = useState({});
   const userId = localStorage.getItem("userId");
   const navigate = useNavigate();
