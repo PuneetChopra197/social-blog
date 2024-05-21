@@ -22,7 +22,7 @@ API.interceptors.response.use(async(res)=>{
   if(error.response?.status===401){
     throw error;
   }
-  // throw error;
+  throw error;
 });
 
 export const createBlog=(data)=>API.post("/post/blog",data);
