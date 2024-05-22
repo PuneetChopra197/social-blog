@@ -37,7 +37,7 @@ const SignUp = () => {
     }
     if (Object.keys(error).length === 0) {
       const res = await axios.post(
-        "https://social-blog-1.onrender.com/auth/signup",
+        "https://social-blog-3.onrender.com/auth/signup",
         formData
       );
       console.log(res, "reserves");
