@@ -42,7 +42,7 @@ const UserProfile = () => {
     <>
       <div className="user">
         <img
-          src={`https://social-blog-3.onrender.com/${userData.profilePhoto}`}
+          src={`http://localhost:5000/${userData.profilePhoto}`}
           alt=""
           className="user-icon"
         ></img>
@@ -79,7 +79,7 @@ const UserProfile = () => {
               return (
                 <SwiperSlide>
                   <img
-                    src={`https://social-blog-3.onrender.com/${post.image}`}
+                    src={`http://localhost:5000/${post.image}`}
                     alt="user"
                     className="post-image"
                   />

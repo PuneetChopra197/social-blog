@@ -24,7 +24,7 @@ const Login = () => {
     }
     if (Object.keys(error).length === 0) {
       const res = await axios.post(
-        "https://social-blog-3.onrender.com/auth/login",
+        "http://localhost:5000/auth/login",
         formData
       );
 

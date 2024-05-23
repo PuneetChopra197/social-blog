@@ -27,7 +27,7 @@ authRouter.post("/send-mail/",async(req,res)=>{
       from:"puneetchopra197@gmail.com",
       to:email,
       subject:"Forget Password",
-      text:`Click on this link for reset password https://social-blog-2.onrender.com/ResetPass/${email}`,
+      text:`Click on this link for reset password http://localhost:3000/ResetPass/${email}`,
     }
     await transporter.sendMail(mailOptions)
     res.status(200).json({message:"Email is sent successfully"});

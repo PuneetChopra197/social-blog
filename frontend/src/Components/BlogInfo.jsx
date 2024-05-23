@@ -27,7 +27,7 @@ const BlogInfo = () => {
       <div className="blog-info">
         <div className="blog-image">
           <img
-            src={`https://social-blog-3.onrender.com/${blog.image}`}
+            src={`http://localhost:5000/${blog.image}`}
             alt=""
             className="image"
           ></img>
