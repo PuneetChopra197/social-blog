@@ -27,7 +27,7 @@ const BlogInfo = () => {
       <div className="blog-info">
         <div className="blog-image">
           <img
-            src={`http://localhost:5000/${blog.image}`}
+            src={`https://blogbook-ag2g.onrender.com/${blog.image}`}
             alt=""
             className="image"
           ></img>

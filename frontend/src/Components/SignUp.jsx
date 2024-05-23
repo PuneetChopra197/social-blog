@@ -37,7 +37,7 @@ const SignUp = () => {
     }
     if (Object.keys(error).length === 0) {
       const res = await axios.post(
-        "http://localhost:5000/auth/signup",
+        "https://blogbook-ag2g.onrender.com/auth/signup",
         formData
       );
       console.log(res, "reserves");

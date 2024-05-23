@@ -42,7 +42,7 @@ const AddBlog = () => {
         //   Authorization: `Bearer ${token}`,
         //   "Content-Type": "application/json",
         // };
-        // const res = await axios.post("http://localhost:5000/post/blog", data, {
+        // const res = await axios.post("https://blogbook-ag2g.onrender.com/post/blog", data, {
         //   headers,
         // });
         dispatch(createPost(formData));

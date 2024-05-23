@@ -103,7 +103,7 @@ const Blog = () => {
             <p>{post.description}</p>
             { {post.image && (
             <img
-              src={`http://localhost:5000/uploads/${post.image}`}
+              src={`https://blogbook-ag2g.onrender.com/uploads/${post.image}`}
               alt={post.title}
               style={{ maxWidth: "100%" }}
             />
